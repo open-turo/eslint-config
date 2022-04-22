@@ -15,3 +15,11 @@ Then in your `.eslintrc` file add:
 ```
 "extends": "@open-turo/eslint-config"
 ```
+
+## Get Help
+
+Please review Issues, post new Issues against this repository as needed.
+
+## Contributions
+
+Please see [here](https://github.com/open-turo/contributions) for guidelines on how to contribute to this project.
