@@ -13,12 +13,13 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          persist-credentials: false
       - name: Semantic release
         id: release
         uses: cycjimmy/semantic-release-action@v2
         with:
           extra_plugins: |
-            semantic-release-github-pullrequest
+            @open-turo/semantic-release-config
         env:
           GITHUB_TOKEN: ${{ secrets.OPEN_TURO_GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
