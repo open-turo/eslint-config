@@ -23,7 +23,9 @@ jobs:
     name: Validate ESLint Config
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: ./.github/actions/run-command
-        with:
-          command: yarn test
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: npm install
+        run: npm install
+      - name: npm test
+        run: npm test
