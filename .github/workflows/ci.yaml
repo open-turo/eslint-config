@@ -18,3 +18,12 @@ jobs:
           bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash) latest "$HOME/bin"
           echo "${HOME}/bin" >> "$GITHUB_PATH"
       - uses: open-turo/action-pre-commit@v1
+
+  test:
+    name: Validate ESLint Config
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/run-command
+        with:
+          command: yarn test
