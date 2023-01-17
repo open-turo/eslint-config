@@ -20,12 +20,9 @@ jobs:
       - uses: open-turo/action-pre-commit@v1
 
   test:
-    name: Validate ESLint Config
+    name: Test
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: npm install
-        run: npm install
-      - name: npm test
-        run: npm test
+      - uses: open-turo/actions-node/test@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
