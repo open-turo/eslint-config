@@ -2,7 +2,7 @@
   "author": "Turo engineering",
   "description": "Eslint configuration for Turo",
   "devDependencies": {
-    "@commitlint/cli": "17.5.1",
+    "@commitlint/cli": "17.6.0",
     "@open-turo/commitlint-config-conventional": "1.1.0",
     "@open-turo/semantic-release-config": "1.3.2",
     "eslint": "8.38.0",
