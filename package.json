@@ -5,7 +5,7 @@
     "@commitlint/cli": "17.6.5",
     "@open-turo/commitlint-config-conventional": "1.1.0",
     "@open-turo/semantic-release-config": "2.0.1",
-    "eslint": "8.42.0",
+    "eslint": "8.43.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-import": "2.27.5",
