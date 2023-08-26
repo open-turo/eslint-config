@@ -7,7 +7,7 @@
     "@open-turo/semantic-release-config": "3.0.0",
     "eslint": "8.44.0",
     "eslint-config-airbnb-base": "15.0.0",
-    "eslint-config-prettier": "8.8.0",
+    "eslint-config-prettier": "9.0.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jest": "27.2.2",
     "eslint-plugin-json": "3.1.0",
@@ -31,7 +31,7 @@
   "peerDependencies": {
     "eslint": "^8.10.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier": "^8.5.0 || ^9.0.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^27.0.1",
     "eslint-plugin-json": "^3.1.0",
