@@ -4,7 +4,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.6.6",
     "@open-turo/commitlint-config-conventional": "1.1.0",
-    "@open-turo/semantic-release-config": "3.0.0",
+    "@open-turo/semantic-release-config": "4.0.3",
     "eslint": "8.44.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "9.0.0",
