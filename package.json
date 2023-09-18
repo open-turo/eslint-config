@@ -47,6 +47,7 @@
   },
   "repository": "https://github.com/open-turo/eslint-config",
   "scripts": {
+    "release": "semantic-release",
     "test": "jest test.js"
   },
   "version": "2.0.1"

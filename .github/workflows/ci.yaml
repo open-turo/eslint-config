@@ -29,3 +29,11 @@ jobs:
           bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash) latest "$HOME/bin"
           echo "${HOME}/bin" >> "$GITHUB_PATH"
       - uses: open-turo/action-pre-commit@v1
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: open-turo/actions-node/test@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
