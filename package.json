@@ -45,6 +45,7 @@
   },
   "repository": "https://github.com/open-turo/eslint-config",
   "scripts": {
+    "lint": "echo noop",
     "test": "jest test.js"
   },
   "version": "3.0.0"
