@@ -3,7 +3,7 @@ module.exports = {
     "eslint-config-airbnb-base",
     "eslint:recommended",
     "prettier",
-    "plugin:sonarjs/recommended",
+    "plugin:sonarjs/recommended-legacy",
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:jest/recommended",
