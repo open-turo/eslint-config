@@ -2,13 +2,14 @@ module.exports = {
   extends: [
     "eslint-config-airbnb-base",
     "eslint:recommended",
-    "prettier",
-    "plugin:sonarjs/recommended-legacy",
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:jest/recommended",
-    "plugin:unicorn/recommended",
+    "plugin:json/recommended-legacy",
     "plugin:node/recommended",
+    "plugin:sonarjs/recommended-legacy",
+    "plugin:unicorn/recommended",
+    "prettier",
   ],
   parserOptions: {
     ecmaVersion: 2020,
