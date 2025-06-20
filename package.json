@@ -39,5 +39,5 @@
     "lint": "echo noop",
     "test": "jest test.js"
   },
-  "version": "9.0.11"
+  "version": "9.0.12"
 }
