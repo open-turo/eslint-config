@@ -38,6 +38,8 @@ module.exports = {
     "prettier/prettier": "error",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
+    "sonarjs/no-async-constructor": "off",
+    "sonarjs/no-dead-store": "off",
     "sort-destructure-keys/sort-destructure-keys": "error",
   },
 };
