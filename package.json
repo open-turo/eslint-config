@@ -8,7 +8,7 @@
     "eslint-plugin-jest": "29.15.2",
     "eslint-plugin-json": "4.0.1",
     "eslint-plugin-n": "17.24.0",
-    "eslint-plugin-prettier": "5.5.5",
+    "eslint-plugin-prettier": "5.5.6",
     "eslint-plugin-simple-import-sort": "13.0.0",
     "eslint-plugin-sonarjs": "4.0.3",
     "eslint-plugin-sort-destructure-keys": "3.0.0",
@@ -41,5 +41,5 @@
     "test": "jest test.js"
   },
   "version": "9.0.47",
-  "packageManager": "npm@11.15.0+sha512.fa4d2d93b9519e93143e70bb913b94ff2ad5fe69c5a0f84943be557cbb59e9fc1bcce55768fb1313f225f4f9f50c78b8f366f2332aa41effd7b10efa98d8d72f"
+  "packageManager": "npm@11.16.0+sha512.03be172fc3b199c7a06433163e459be5b110a6983c1dd6305b7ac10f6b0fa12e1440755a8df6b1064ab2ccb789df0474919fb9c684e322dc57685ede21752ccb"
 }
